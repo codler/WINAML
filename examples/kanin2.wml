@@ -1,0 +1,28 @@
+<text>exempel 1<>
+<<var1 = 5 * 6>
+<<var2 = var1 / 2>
+<text>#{var1} - ( #{var2} + 2 ) = #{var1-(var2+2)}<>
+
+<text>exempel 2<> 
+<<str1 = "'hej då'">
+<<str2 = "'re mi'">
+<<str3 = "' '">
+<text>#{str1} #{str2}<>
+<text>#{str1+str3+str2}<>
+
+<text>exempel 3<>
+<<var1 = 3>
+<<if 3+6 < var1>  !"spara vars"!
+	<<var1 = 5>
+	<text>11<>
+<<else> !"reset backup vars"!
+	<<var1 = 7>
+	<text>22<>
+		<<if var1 and var1 == 500> !"spara vars"!
+		<text>33<>
+	<<endif>
+<<endif>
+
+<text>#{1-3}<>
+
+

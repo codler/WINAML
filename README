@@ -1,0 +1,7 @@
+WINAML
+
+Commands
+~ ruby1.9 parse.rb
+[WINAML] file-to-parse.wml
+
+Read the documentation ( documentation_sv_v3.pdf (in swedish) ) for syntax.

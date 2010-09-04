@@ -1,0 +1,9 @@
+<<if (10>5) and true> !"and true>"!
+  <text>Sant!<>
+  <text><>
+  <text>Sant!<>
+<<else>
+  <text>Falskt!<>
+  <text><>
+  <text>Falskt!<>
+<<endif>

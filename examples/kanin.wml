@@ -1,0 +1,5 @@
+<<if true>
+  <text>kanin test<>
+<<else>
+  <text>apan boll<>
+<<endif>
